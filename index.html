@@ -9,25 +9,32 @@
 </head>
 
 <body>
-    <div id="result" class="display">0</div>
-    <div class="buttons">
-        <button id="1">1</button>
-        <button id="2">2</button>
-        <button id="3">3</button>
-        <button id="4">4</button>
-        <button id="5">5</button>
-        <button id="6">6</button>
-        <button id="7">7</button>
-        <button id="8">8</button>
-        <button id="9">9</button>
-        <button id="0">0</button>
-        <button id=".">.</button>
-        <button id="=">=</button>
-        <button id="+">+</button>
-        <button id="-">-</button>
-        <button id="*">*</button>
-        <button id="/">/</button>
-        <button id="clear">clear</button>
+    <div class="calculator">
+        <input id="display" type="text" readonly />
+
+        <div class="buttons">
+            <button id="7">7</button>
+            <button id="8">8</button>
+            <button id="9">9</button>
+            <button id="/" class="operator">/</button>
+
+            <button id="4">4</button>
+            <button id="5">5</button>
+            <button id="6">6</button>
+            <button id="x" class="operator">x</button>
+
+            <button id="1">1</button>
+            <button id="2">2</button>
+            <button id="3">3</button>
+            <button id="-" class="operator">-</button>
+
+            <button id="0">0</button>
+            <button id=".">.</button>
+            <button id="=">=</button>
+            <button id="+" class="operator">+</button>
+
+            <button id="clear" class="clear">Clear</button>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
